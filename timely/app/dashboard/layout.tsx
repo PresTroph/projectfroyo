@@ -23,7 +23,7 @@ export default async function DashboardLayout({ children }: { children: ReactNod
                             <Link href="/" className="flex items-center gap-2">
                                 <Image src={Logo} alt="Logo" className="size-8" />
                                 <p className="text-xl font-bold">
-                                    <span className="text-primary">TIM</span>ELY
+                                    <span className="text-primary">SKE</span>LLY
                                 </p>
                             </Link>
                         </div>
