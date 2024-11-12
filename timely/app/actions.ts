@@ -58,9 +58,9 @@ export async function SeetingsAction(prevState: any, formData: FormData) {
     where: {
         id: session.user?.id,
     },
-    data: {
+    data: {             //wrong area all of this is supposed to be done one step up
         name: submission.value.fullName,
-        image: submission.value.profileImage,
+        image: submission.value.fullName,
         availability: {
             createMany: {
                 data: [
